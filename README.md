@@ -40,3 +40,9 @@ draw a well-encapsulated class diagram to satisfy the business  acceptance crite
 - Took a screen capture of [iniital UML of Student Class](docs/betterVisualOfStudentClassUML.png)
 
 ![iniital UML of Student Class](docs/betterVisualOfStudentClassUML.png)
+
+## Activity 2: Class as java code
+
+### 2.1 Student Java Class
+- Created [Student Class](src/main/java/Student.java)
+- Backed with [junit5 tests](src/test/java/StudentTest.java)
