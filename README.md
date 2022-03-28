@@ -37,5 +37,6 @@ draw a well-encapsulated class diagram to satisfy the business  acceptance crite
 
 ### 1.1 Class diagram
 - Created [UML of Student Class](docs/StudentClassUML.drawio) in (https://app.diagrams.net/)
-- Took a screen capture of [iniital UML of Student Class](docs/InitialStudentClassUML.png)
-![iniital UML of Student Class](docs/InitialStudentClassUML.png)
+- Took a screen capture of [iniital UML of Student Class](docs/betterVisualOfStudentClassUML.png)
+
+![iniital UML of Student Class](docs/betterVisualOfStudentClassUML.png)
