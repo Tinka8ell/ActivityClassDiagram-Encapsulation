@@ -36,4 +36,16 @@ public class Student {
     public int getGroup() {
         return group;
     }
+
+    public void upgrade(){
+        // move nearer to 0
+        if (grade > 1)
+            grade--;
+    }
+
+    public void downgrade(){
+        // move further from 0
+        if (grade < validGrades.length() - 1)
+            grade++;
+    }
 }

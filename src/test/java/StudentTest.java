@@ -46,4 +46,24 @@ class StudentTest {
     void checkGetGroup() {
         assertEquals(4, bottom.getGroup());
     }
+
+    @Test
+    public void checkUpgrade(){
+        top.upgrade();
+        bottom.upgrade();
+        meh.upgrade();
+        assertEquals('A', top.getGrade());
+        assertEquals('B', meh.getGrade());
+        assertEquals('E', bottom.getGrade());
+    }
+
+    @Test
+    public void checkDowngrade(){
+        top.downgrade();
+        bottom.downgrade();
+        meh.downgrade();
+        assertEquals('B', top.getGrade());
+        assertEquals('D', meh.getGrade());
+        assertEquals('F', bottom.getGrade());
+    }
 }
