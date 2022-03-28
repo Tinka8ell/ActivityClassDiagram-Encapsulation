@@ -26,8 +26,16 @@ You can find the business acceptance criteria below:
   - If the Student has a current grade of “C”, a downgrade will result in the grade being set to “D”. 
 
 ### 1.1 Activity
-- Using your understanding of access modifiers, getters and setters, draw a well-encapsulated class diagram to satisfy the business  acceptance criteria. 
+- Using your understanding of access modifiers, getters and setters, 
+draw a well-encapsulated class diagram to satisfy the business  acceptance criteria. 
 
 ## Exercise 2: Translate the Class Diagram into Code 
 ### 2.1 Activity
 - Using your understanding of access modifiers, getters and setters, translate your class diagram from Exercise 1 into working Java  code.
+
+## Activity 1: Class Diagrams
+
+### 1.1 Class diagram
+- Created [UML of Student Class](docs/StudentClassUML.drawio) in (https://app.diagrams.net/)
+- Took a screen capture of [iniital UML of Student Class](docs/InitialStudentClassUML.png)
+![iniital UML of Student Class](docs/InitialStudentClassUML.png)
