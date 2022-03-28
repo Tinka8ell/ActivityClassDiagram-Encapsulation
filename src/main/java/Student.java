@@ -21,4 +21,19 @@ public class Student {
             throw new IllegalArgumentException("Group '" + group + "' is not a valid group");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    private String getSecretNickName() {
+        return secretNickName;
+    }
+
+    public char getGrade() {
+        return validGrades.charAt(grade);
+    }
+
+    public int getGroup() {
+        return group;
+    }
 }
